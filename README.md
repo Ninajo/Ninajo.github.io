@@ -1,5 +1,6 @@
 # Ninajo.github.io
 
-Animacije:
+https://ninajo.github.io/
 
+Animations with aos libery:
 https://github.com/michalsnik/aos
