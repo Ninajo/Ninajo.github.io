@@ -2,5 +2,5 @@
 
 https://ninajo.github.io/
 
-Animations with aos libery:
+Animations with aos library:
 https://github.com/michalsnik/aos
