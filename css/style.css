@@ -1,0 +1,284 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', 'Source Sans Pro', sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f26522;
+
+}
+
+header {
+
+  background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('../img/img-landing-resevalec.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  color: #f26522;
+}
+
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header .intro-text .intro-heading {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 86px;
+  line-height: 85px;
+  margin-bottom: 227px;
+  text-align: left;
+  font-smoothing: antialiased;
+}
+
+header .intro-text .intro-subheading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 221px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #61605e;
+}
+
+.features-item {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.ic-ihelp-features{
+
+text-align: center;
+margin-top: 160px;
+margin-bottom: 160px;
+}
+
+.features-text {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	line-height: 1;
+	font-size: 18px;
+	padding-top: 58px;
+	color: #5c6c6e;
+
+}
+
+.text-image-half {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.image-wrap {
+	box-sizing: border-box;
+	position: relative;
+}
+
+.text-image-half .image-wrap {
+	width: 50%;
+	overflow: hidden;
+
+}
+
+.image {
+	  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: #008CBA;
+   position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.image-wrap:hover .image {
+  opacity: 0.3;
+   -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+
+}
+
+.text {
+	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #3c3c3c;
+}
+
+.text-image-half .text {
+	width: 50%;
+	padding: 100px;
+	background: #c9dfe2;
+}
+
+.text h3 {
+	color: #f26522;
+}
+
+.text-image-half .image-wrap .image {
+width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+.text-image-half .image-wrap {
+    height: 400px;
+    width: 100%;
+}}
+
+@media screen and (max-width: 1000px) {
+.text-image-half .text {
+    height: 100%;
+    width: 100%;
+}}
+
+.bg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 923px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  background-color: var(--white);
+  box-shadow: 0 0 59px 0 rgba(0, 0, 0, 0.15);
+    transition: .5s ease;
+}
+
+.bg:hover {
+   -webkit-transform: scale(1.1);
+ transform: scale(1.1);
+  transition: .5s ease;
+
+}
+
+.row {
+	align-items: center;
+}
+
+.verticalLine {
+  border-left: thin solid #e9e9e9;
+  height: 322px;
+
+
+}
+
+.section-mt {
+	margin-top: 140px;
+}
+
+.section-mt-70 {
+	margin-top: 70px;
+}
+
+.section-m-70 {
+	margin-top: 70px;
+	margin-bottom: 200px;
+}
+
+.button-banner  {
+	color: #465254;
+	background-color: #c9dfe2;
+	border: none;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+
+}
+.btn:hover {
+	background: #a5c8cd;
+	color: #465254;
+}
+
+.text-color {
+color: #2a2a2a;
+	}
+
+.text-color-blue {
+color: #518188;
+	}
+
+.text-paket {
+padding-left: 100px;
+padding-top: 30px;
+}
+
+.text-paket2 {
+padding-left: 30px;
+padding-top: 60px;
+padding-right: 40px;
+color: #646464;
+}
+
+.bg-blue {
+height: 909px;
+width: 100%;
+background-color: #c9dfe2;
+
+}
+
+.img-txt-centered {
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+
+}
+
+.container-img {
+position: relative;
+ width: 542px;
+ height: 306px;
+ overflow: hidden;
+}
+
+.image-col6 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-color: #008CBA;
+   position: absolute;
+ top: 0;
+ left: 0;
+
+}
+
+.container-img:hover .image-col6 {
+  opacity: 0.3;
+   -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+
+}
+
